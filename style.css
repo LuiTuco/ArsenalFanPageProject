@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 200px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9b1c31;
+  border-bottom: 5px solid #d6b13a;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 30px;
+}
+
+li {
+  margin: 20px;
+  font-size: 25px;
+  color: #faf9f6;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+}
+
+.sponsors img {
+  width: 110px;
+  padding: 10px;
+  height: auto;
+}
+
+.sponsors {
+  justify-content: space-evenly;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.mainsection {
+  position: relative;
+  background-color: #9b1c31;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainsection img {
+  width: 50%;
+  filter: blur(2px) brightness(50%);
+}
+
+.over-text {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
