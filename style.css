@@ -1,10 +1,12 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .logo {
-  width: 200px;
+  width: 180px;
+  height: 110px;
 }
 
 .navbar {
@@ -32,7 +34,7 @@ li {
 }
 
 .sponsors img {
-  width: 110px;
+  width: 50px;
   padding: 10px;
   height: auto;
 }
@@ -63,15 +65,63 @@ li {
 .over-text {
   position: absolute;
   color: white;
-  font-size: 100px;
+  font-size: 50px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: auto;
 }
 
 button {
   padding: 10px;
   margin-top: 20px;
   border-radius: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  background-color: #9b1c31;
+  border: none;
+}
+
+.history {
+  background-color: #9b1c31;
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  text-align: center;
+}
+
+.history h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #faf9f6;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.history p {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #faf9f6;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
+a {
+  text-decoration: none;
+  color: #faf9f6;
+}
+
+/* pseudo ccode */
+
+li a:hover {
+  color: #d6b13a;
+  cursor: pointer;
+  text-shadow: black;
+}
+
+button:hover {
+  color: #d6b13a;
+  border: 1px solid white;
 }
