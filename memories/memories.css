@@ -55,6 +55,40 @@ a {
   color: #faf9f6;
 }
 
+.memory-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.memory-card {
+  background-color: black;
+  margin-left: 350px;
+  margin-right: 350px;
+  height: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.memory-img {
+  height: 75%;
+  width: 100%;
+}
+
+.memory-bar {
+  background-color: #a62c2b;
+  height: 25%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.memory-bar p {
+  margin-bottom: 5px;
+}
 /* pseudo ccode */
 
 li a:hover {
