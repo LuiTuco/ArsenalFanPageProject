@@ -63,18 +63,30 @@ a {
 
 .memory-card {
   background-color: black;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin: 50px auto;
   height: 450px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+
   border-radius: 20px;
   overflow: hidden;
+  width: 850px;
 }
 
 .memory-img {
   height: 75%;
   width: 100%;
+  overflow: hidden;
+}
+
+.memory-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.memory-card:hover .memory-img img {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .memory-bar {
@@ -83,7 +95,11 @@ a {
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
+}
+
+.memory-title {
+  font-size: 10px;
 }
 
 .memory-bar p {
